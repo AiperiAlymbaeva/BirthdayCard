@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:text="Happy Birthday, Saule!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@android:color/white"
+        android:layout_margin="40dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="55dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Happy Birthday to my amazing beautiful fabulous best friend"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+    <TextView
+        android:text="From, Aiperi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+         />
+
+
+
+</RelativeLayout>
